@@ -1,4 +1,4 @@
-FROM php:7.1.5-cli
+FROM php:7.0.19-cli
 
 MAINTAINER John Dorrance <jdorrance@mavendc.com>
 
