@@ -45,5 +45,4 @@ RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local
 RUN curl -O https://files.magerun.net/n98-magerun2.phar && chmod +x ./n98-magerun2.phar && cp ./n98-magerun2.phar /usr/local/bin/
 
 VOLUME /root/.composer/cache
-
 CMD ["bash"]
