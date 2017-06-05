@@ -1,0 +1,7 @@
+$ cat .gitignore
+# exclude
+license.properties
+.DS_Store
+*.swp
+*.iml
+.idea
